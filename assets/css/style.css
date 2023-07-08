@@ -1026,6 +1026,10 @@ button {
         padding-right: 12px;
     }
 
+    .pl-lg-32 {
+        padding-left: 32px;
+    }
+
     .mw-lg-555 {
         max-width: 555px;
     }
