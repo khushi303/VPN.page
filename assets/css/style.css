@@ -105,14 +105,6 @@ body {
     background: transparent;
 }
 
-.col-6 {
-    width: 50%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
 .font-want {
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
@@ -212,8 +204,18 @@ body {
     max-width: 611px;
 }
 
+.card2 {
+    /* width: 400px;
+    height: 230px; */
+    border: 2px solid #DDDDDD;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
 .card {
-    padding: 30px;
+    width: 330px;
+    height: 760px;
     border: 2px solid #DDDDDD;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border-radius: 10px;
@@ -287,10 +289,23 @@ body {
     padding-top: 5px;
 }
 
+.bor-card {
+    border: 2px solid #F53838
+}
+
+.ml-90 {
+    margin-left: 90px;
+}
+
+.mt-59 {
+    margin-top: 59px;
+}
+
 .shadow {
     position: relative;
+
     border-radius: 10px;
-    background: #FFF;
+    background: #FFFFFF;
 }
 
 .mr-150 {
@@ -949,9 +964,9 @@ img {
     text-align: center;
 }
 
-.px-12 {
-    padding-left: 12px;
-    padding-right: 12px;
+.px-25 {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .pt-90 {
@@ -961,14 +976,6 @@ img {
 .mb-50 {
     margin-bottom: 50px;
 }
-
-.col-2 {
-    width: 16.66%;
-}
-
-/* .pos-sticky-1 {
-    position: sticky;
-} */
 
 button {
     white-space: nowrap;
@@ -1246,4 +1253,8 @@ button svg path {
 
 button:hover svg path {
     fill: white;
+}
+
+.ml-21 {
+    margin-left: -21px;
 }
