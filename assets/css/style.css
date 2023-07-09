@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #FFF;
+    background: #fcfcfc;
 }
 
 .container {
@@ -303,9 +303,7 @@ body {
 
 .shadow {
     position: relative;
-
     border-radius: 10px;
-    background: #FFFFFF;
 }
 
 .mr-150 {
@@ -591,6 +589,10 @@ body {
 
 .mt-6 {
     margin-top: 6px;
+}
+
+.ml-52 {
+    margin-left: 52px;
 }
 
 .mb-57 {
