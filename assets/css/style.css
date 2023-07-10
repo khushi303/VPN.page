@@ -210,12 +210,11 @@ body {
     border: 2px solid #DDDDDD;
     padding: 12px;
     border-radius: 10px;
-
 }
 
 .card {
-    width: 330px;
-    height: 760px;
+    /* width: 330px;
+    height: 760px; */
     border: 2px solid #DDDDDD;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border-radius: 10px;
@@ -966,6 +965,11 @@ img {
     text-align: center;
 }
 
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .px-25 {
     padding-left: 25px;
     padding-right: 25px;
@@ -1239,9 +1243,28 @@ button {
     color: #FFFFFF;
 }
 
-.slick-dots li.slick-active button:before {
+/* .slick-dots li.slick-active button:before {
     opacity: 1 !important;
     color: #F53838 !important;
+} */
+.slick-dots li button:before {
+    content: "" !important;
+    background-color: #DDE0E4;
+    border-radius: 33px;
+    transition: all 200ms linear;
+}
+
+.slick-dots li.slick-active button:before {
+    content: "";
+    width: 35px !important;
+    height: 20px;
+    background-color: red;
+    border-radius: 33px;
+}
+
+.slick-dots li {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
 }
 
 .slick-dots {
@@ -1259,4 +1282,8 @@ button:hover svg path {
 
 .ml-21 {
     margin-left: -21px;
+}
+
+.slick-slider.slick-current.slick-active.btnse:hover {
+    background-color: #F53838;
 }
