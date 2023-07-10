@@ -20,10 +20,7 @@ body {
     padding-right: 12px;
 }
 
-.slick-slider .slick-track {
-    display: flex;
-    align-items: center;
-}
+
 
 .row {
     display: flex;
@@ -474,10 +471,6 @@ body {
     margin-top: 20px;
 }
 
-.mb-50 {
-    margin-bottom: 50px;
-}
-
 .mt-90 {
     margin-top: 90px;
 }
@@ -535,27 +528,6 @@ body {
 
 .pb-140 {
     padding-bottom: 140px;
-}
-
-.btn-sel {
-    padding: 13px 62px;
-    border-radius: 50px;
-    background: #F53838;
-    color: #FFFFFF;
-    border: none;
-    position: relative;
-}
-
-.btn-sel::after {
-    content: "";
-    position: absolute;
-    top: 17px;
-    bottom: -17px;
-    left: 25px;
-    right: 25px;
-    border-radius: 60px;
-    background: rgba(245, 56, 56, 0.35);
-    filter: blur(27px)
 }
 
 .mb-40 {
@@ -681,23 +653,6 @@ body {
     margin-bottom: 60px;
 }
 
-.card-sh {
-    position: relative;
-}
-
-.card-sh::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: -70px;
-    left: 40px;
-    right: 40px;
-    border-radius: 10px;
-    opacity: 0.05999999865889549;
-    background: #0D1025;
-    filter: blur(57px);
-}
-
 .bg-col-wh {
     background: #FFFFFF;
 }
@@ -800,8 +755,6 @@ body {
     line-height: 30px;
     color: #4F5665;
 }
-
-
 
 .mb-10 {
     margin-bottom: 10px;
@@ -1196,7 +1149,7 @@ button {
         top: 12px;
         right: 0;
         left: 0;
-        z-index: 1;
+        z-index: 2;
     }
 
     .pt-20 {
@@ -1209,7 +1162,7 @@ button {
 }
 
 .slick-slide.slick-current.slick-active>div {
-    border-color: red;
+    border-color: #F53838;
 }
 
 .bd1 {
@@ -1221,6 +1174,7 @@ button {
     justify-content: center;
     height: 60px;
     width: 60px;
+    z-index: 1;
 }
 
 .bd1:hover {
@@ -1270,6 +1224,7 @@ button {
 .slick-dots {
     text-align: left !important;
     bottom: -70px !important;
+    display: flex !important;
 }
 
 button svg path {
@@ -1284,6 +1239,17 @@ button:hover svg path {
     margin-left: -21px;
 }
 
-.slick-slider.slick-current.slick-active.btnse:hover {
-    background-color: #F53838;
+footer div div div span svg:hover {
+    box-shadow: rgba(76, 73, 73, 0.35);
+}
+
+.slick-slide.slick-current.slick-active>div button {
+    background: #F53838;
+    color: #FFFFFF;
+    transition: all 200ms linear;
+}
+
+.slick-slider .slick-track {
+    display: flex;
+    align-items: center;
 }
