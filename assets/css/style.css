@@ -208,8 +208,21 @@ body {
     /* width: 400px;
     height: 230px; */
     border: 2px solid #DDDDDD;
-    padding: 12px;
+    padding: 30px;
     border-radius: 10px;
+}
+
+.container1 {
+    width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pos-relative {
+    position: relative;
+
 }
 
 .card {
@@ -274,7 +287,21 @@ body {
     content: "";
     position: absolute;
     top: 37px;
-    right: -10px;
+    right: 0;
+    width: 3px;
+    height: 125px;
+    background: #EEEFF2;
+}
+
+.line2 {
+    position: relative;
+}
+
+.line2::after {
+    content: "";
+    position: absolute;
+    top: 37px;
+    right: 0;
     width: 3px;
     height: 125px;
     background: #EEEFF2;
@@ -834,21 +861,27 @@ body {
     margin-right: 70px;
 }
 
-/* 
+
 .box-sh {
     position: relative;
 }
 
-.box-sh::after {
-    content: "";
-    top: 16px;
-    bottom: -33px;
-    left: 31px;
-    right: 31px;
+.bor-rad-10 {
     border-radius: 10px;
+}
+
+.box-sh::after {
+    content: "2222";
+    position: absolute;
+    bottom: -33px;
+    left: 30px;
+    width: 1060px;
+    height: 250px;
+    border-radius: 10px;
+    opacity: 0.05999999865889549;
     background: #0D1025;
     filter: blur(57px);
-} */
+}
 
 .pt-55 {
     padding-top: 55px;
