@@ -152,28 +152,33 @@ body {
     text-align: left;
     color: #FFFFFF;
     cursor: pointer;
-}
-
-.btnget {
-    position: relative;
-    padding: 17px 77px;
     border-radius: 10px;
     background: #F53838;
     border: none;
     box-shadow: #f538380b;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    z-index: 1;
 }
 
-.btnget::after {
-    content: '';
+.po-re {
+    position: relative;
+}
+
+.po-re::after {
+    content: "";
     position: absolute;
-    top: 25px;
-    bottom: -25px;
-    left: 19px;
+    width: 210px;
+    height: 60px;
     right: 19px;
+    top: 25px;
     border-radius: 10px;
     background: rgba(245, 56, 56, 0.35);
     filter: blur(27px);
 }
+
+
 
 .mt-129 {
     margin-top: 129px;
@@ -295,13 +300,14 @@ body {
     margin-top: 59px;
 }
 
+.mr-150 {
+    margin-right: 150px;
+}
+
+/* 
 .shadow {
     position: relative;
     border-radius: 10px;
-}
-
-.mr-150 {
-    margin-right: 150px;
 }
 
 .shadow::after {
@@ -315,7 +321,7 @@ body {
     opacity: 0.05999999865889549;
     background: #0D1025;
     filter: blur(57px);
-}
+} */
 
 .font-we {
     font-family: 'Rubik', sans-serif;
@@ -762,7 +768,7 @@ body {
     padding-bottom: 10px;
 }
 
-.foot-card {
+/* .foot-card {
     position: relative;
 }
 
@@ -774,7 +780,7 @@ body {
     right: 150px;
     border-radius: 10px;
     background: #FFF;
-}
+} */
 
 .font-sus {
     color: #0B132A;
@@ -816,31 +822,19 @@ body {
     font-weight: 700;
     line-height: 25px;
     padding: 17px 65px;
-}
-
-.btn-subs {
     border-radius: 10px;
     background: #F53838;
     border: none;
-    position: relative;
+    display: flex;
+    z-index: 1;
 }
 
-.btn-subs::after {
-    content: "";
-    position: absolute;
-    top: 25px;
-    bottom: -25px;
-    left: 19px;
-    right: 19px;
-    border-radius: 10px;
-    background: rgba(245, 56, 56, 0.35);
-    filter: blur(27px);
-}
 
 .mr-70 {
     margin-right: 70px;
 }
 
+/* 
 .box-sh {
     position: relative;
 }
@@ -854,7 +848,7 @@ body {
     border-radius: 10px;
     background: #0D1025;
     filter: blur(57px);
-}
+} */
 
 .pt-55 {
     padding-top: 55px;
@@ -1240,10 +1234,6 @@ button:hover svg path {
 
 .ml-21 {
     margin-left: -21px;
-}
-
-footer div div div span svg:hover {
-    box-shadow: rgba(76, 73, 73, 0.35);
 }
 
 .slick-slide.slick-current.slick-active>div button {
