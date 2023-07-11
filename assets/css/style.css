@@ -806,7 +806,7 @@ body {
 }
 
 .bg-2col {
-    background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #F8F8F8 50%, #F8F8F8 100%);
+    background-image: linear-gradient(to bottom, #fcfcfc 0%, #fcfcfc 50%, #F8F8F8 50%, #F8F8F8 100%);
     padding: 50px;
 }
 
