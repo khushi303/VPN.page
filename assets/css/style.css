@@ -20,6 +20,14 @@ body {
     padding-right: 12px;
 }
 
+/* .container1 {
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+} */
+
 .row {
     display: flex;
     flex-direction: row;
@@ -178,7 +186,9 @@ body {
     filter: blur(27px);
 }
 
-
+/* .mb-150 {
+    margin-bottom: 150px;
+} */
 
 .mt-129 {
     margin-top: 129px;
@@ -210,19 +220,53 @@ body {
     border: 2px solid #DDDDDD;
     padding: 30px;
     border-radius: 10px;
-}
-
-.container1 {
-    width: 1290px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    background: transparent;
 }
 
 .pos-relative {
     position: relative;
+}
 
+/* .object-fit {
+    object-fit: fill;
+} */
+
+.overflow-right-side {
+    position: absolute;
+    width: 100%;
+    /* right: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+}
+
+.vh-100 {
+    min-height: 50vh;
+}
+
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.translate-middle-y {
+    transform: translateX(5px) !important;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.min-25vh {
+    height: 40vh;
+}
+
+
+.overflow-y-visible {
+    overflow-y: visible;
+}
+
+.justify-content-start {
+    justify-content: start;
 }
 
 .card {
@@ -331,24 +375,22 @@ body {
     margin-right: 150px;
 }
 
-/* 
 .shadow {
     position: relative;
-    border-radius: 10px;
 }
 
-.shadow::after {
-    content: "";
+.shadow::before {
+    content: "22222222222222222";
     position: absolute;
-    top: 52px;
-    right: 35px;
-    left: 35px;
     bottom: -42px;
+    left: 35px;
+    top: -130px;
+    right: 35px;
     border-radius: 10px;
     opacity: 0.05999999865889549;
     background: #0D1025;
     filter: blur(57px);
-} */
+}
 
 .font-we {
     font-family: 'Rubik', sans-serif;
@@ -870,13 +912,15 @@ body {
     border-radius: 10px;
 }
 
-.box-sh::after {
+.box-sh::before {
     content: "2222";
     position: absolute;
     bottom: -33px;
     left: 30px;
-    width: 1060px;
-    height: 250px;
+    top: -130px;
+    right: 33px;
+    /* width: 1060px;
+    height: 250px; */
     border-radius: 10px;
     opacity: 0.05999999865889549;
     background: #0D1025;
@@ -1252,7 +1296,7 @@ button {
 
 .slick-dots {
     text-align: left !important;
-    bottom: -70px !important;
+    /* bottom: -70px !important; */
     display: flex !important;
     left: 18px !important;
 }
@@ -1279,3 +1323,7 @@ button:hover svg path {
     display: flex;
     align-items: center;
 }
+
+/* .slick-track {
+    max-width: 1290px;
+} */
