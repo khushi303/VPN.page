@@ -239,9 +239,9 @@ body {
     /* left: 0; */
 }
 
-.vh-100 {
+/* .vh-100 {
     min-height: 50vh;
-}
+} */
 
 
 .overflow-x-hidden {
@@ -1296,7 +1296,7 @@ button {
 
 .slick-dots {
     text-align: left !important;
-    /* bottom: -70px !important; */
+    bottom: -70px !important;
     display: flex !important;
     left: 18px !important;
 }
